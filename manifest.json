@@ -10,7 +10,7 @@
 
     "browser_specific_settings": {
       "gecko": {
-        "strict_min_version": "55",
+        "strict_min_version": "67",
         "id": "DanawaExtension@ktcar214"
       }
     },

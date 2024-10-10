@@ -18,7 +18,7 @@
     "chrome_settings_overrides": {
       "search_provider": {
         "name": "Danawa(다나와)",
-        "search_url": "https://search.danawa.com/dsearch.php?module=goods&act=dispMain&k1={searchTerms}",
+        "search_url": "https://search.danawa.com/dsearch.php?query={searchTerms}&tab=main",
         "keyword": "@danawa",
         "favicon_url": "http://danawa.com/favicon.ico",
         "is_default": false,

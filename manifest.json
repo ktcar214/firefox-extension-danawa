@@ -3,7 +3,7 @@
     "manifest_version": 2,
     "name": "Search Danawa",
     "description": "Adds a search engine that searches danawa.com",
-    "version": "1.0",
+    "version": "1.1",
     "icons": {
       "256": "icons/danawa.png"
     },
@@ -18,7 +18,7 @@
     "chrome_settings_overrides": {
       "search_provider": {
         "name": "Danawa(다나와)",
-        "search_url": "https://search.danawa.com/dsearch.php?module=goods&act=dispMain&k1={searchTerms}",
+        "search_url": "https://search.danawa.com/dsearch.php?query={searchTerms}&tab=main",
         "keyword": "@danawa",
         "favicon_url": "http://danawa.com/favicon.ico",
         "is_default": false,
